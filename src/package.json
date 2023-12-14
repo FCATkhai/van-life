@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "homepage": "https://fcatkhai.github.io/van-life",
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "miragejs": "0.1.46",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "gh-pages": "^6.1.0",
+    "vite": "^5.0.8"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
